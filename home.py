@@ -71,8 +71,8 @@ else:
     #image_class = str(predictions[0][0][1])   
     #old
     #score=np.round(predictions[0][0][2],5) 
-
-    st.success("The image is classified as",pred_class)
+    st.info('The predicted class is')
+    st.success(pred_class)
    
       
 
