@@ -72,7 +72,7 @@ else:
     #old
     #score=np.round(predictions[0][0][2],5) 
     st.info('The predicted class is')
-    if pred_class = "Clean":
+    if pred_class == "Clean":
       st.success(pred_class)
     else
       st.warning(pred_class)
