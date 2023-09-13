@@ -20,4 +20,4 @@
 
 **Dataset Link: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images**
 
-NOTE: Can also detect images from Google. But in case of outside images, the sensetivity increases for **"Clear"** class
+NOTE: Can also detect images from Google. But in case of outside images, the sensitivity increases for **"Clear"** class
