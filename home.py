@@ -73,9 +73,7 @@ else:
     #score=np.round(predictions[0][0][2],5) 
 
     st.success("The image is classified as",pred_class)
-    if st.checkbox("View working metrics"):
-      st.write("The similarity score is approximately",score)
-      print("The image is classified as ",pred_class, "with a similarity score of",score)
+   
       
 
     
