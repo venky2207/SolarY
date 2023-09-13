@@ -1,1 +1,2 @@
-# SolarY
+# solar-panel-visual-inspection-streamlit
+ 
