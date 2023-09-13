@@ -23,7 +23,7 @@
 NOTE: Can also detect images from Google. But in case of outside images, the sensitivity increases for **"Clear"** class
 
 ### Directions of use:
-- download the files (click on Green "Code" button
+- download the files (click on Green "Code" button on top right of the files area in Github)
 - extract the files
 - open with VScode or Spyder or any IDE of your preference (Not Jupyter Notebooks)
 - install the packages that are listed in requirements.txt
