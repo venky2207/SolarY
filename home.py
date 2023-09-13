@@ -74,7 +74,7 @@ else:
     st.info('The predicted class is')
     if pred_class == "Clean":
       st.success(pred_class)
-    else
+    else:
       st.warning(pred_class)
    
       
