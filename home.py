@@ -71,7 +71,7 @@ else:
     #image_class = str(predictions[0][0][1])   
     #old
     #score=np.round(predictions[0][0][2],5) 
-    st.info('The predicted class is')
+    st.sidebar.write('The predicted class is')
     if pred_class == "Clean":
       st.sidebar.success(pred_class)
     else:
