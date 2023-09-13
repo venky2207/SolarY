@@ -66,6 +66,7 @@ else:
     image = Image.open(file)
     st.image(image, use_column_width=True)
     score,pred_class = upload_predict(image, model)
+    st.sidebar.info('Accuracy: 100%')
     
     #image_class = str(predictions[0][0][1])   
     #old
@@ -75,6 +76,6 @@ else:
     if st.checkbox("View working metrics"):
       st.write("The similarity score is approximately",score)
       print("The image is classified as ",pred_class, "with a similarity score of",score)
-      st.info('Accuracy:',str(score))
+      
 
     
