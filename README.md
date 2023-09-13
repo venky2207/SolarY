@@ -21,3 +21,15 @@
 **Dataset Link: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images**
 
 NOTE: Can also detect images from Google. But in case of outside images, the sensitivity increases for **"Clear"** class
+
+### Directions of use:
+- download the files (click on Green "Code" button
+- extract the files
+- open with VScode or Spyder or any IDE of your preference (Not Jupyter Notebooks)
+- install the packages that are listed in requirements.txt
+- open a terminal in your IDE or in CMD and type ```streamlit run app.py```
+- type your email in the terminal if you are using streamlit for the first time
+- use the app
+- to host, use streamlit services (As Heroku services are discotinued in Nov, 22)
+
+### ENJOY 🤩
