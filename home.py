@@ -33,6 +33,10 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 
 class_names = ['Bird-drop', 'Clean', 'Dusty', 'Electrical-damage', 'Physical-Damage', 'Snow-Covered']
 
+st.sidebar.header('SolarY')
+st.markdown('Accurately classifies image classes and helps to guide the plant managers to take actions')
+
+
 def upload_predict(upload_image, model):
     
         size = (244,244)    
@@ -67,7 +71,10 @@ else:
     #old
     #score=np.round(predictions[0][0][2],5) 
 
-    st.write("The image is classified as",pred_class)
-    if st.checkbox("View Similarity Metrics"):
+    st.success("The image is classified as",pred_class)
+    if st.checkbox("View working metrics"):
       st.write("The similarity score is approximately",score)
       print("The image is classified as ",pred_class, "with a similarity score of",score)
+      st.info(f'Accuracy: {score}')
+
+    
