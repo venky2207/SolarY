@@ -29,7 +29,7 @@ file = st.file_uploader("Upload the image to be classified \U0001F447", type=["j
 import cv2
 from PIL import Image, ImageOps
 import numpy as np
-st.set_option('deprecation.showfileUploaderEncoding', False)
+
 
 class_names = ['Bird-drop', 'Clean', 'Dusty', 'Electrical-damage', 'Physical-Damage', 'Snow-Covered']
 
