@@ -40,7 +40,7 @@ st.sidebar.markdown('Accurately classifies image classes and helps to guide the 
 def upload_predict(upload_image, model):
     
         size = (244,244)    
-        image = ImageOps.fit(upload_image, size, IMAGE.Resampling.LANCZOS)
+        image = ImageOps.fit(upload_image, size, Image.Resampling.LANCZOS)
         image = np.asarray(image)
         img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         img_resize = cv2.resize(img, dsize=(244, 244),interpolation=cv2.INTER_CUBIC)
